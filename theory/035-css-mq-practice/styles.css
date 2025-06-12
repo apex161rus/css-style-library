@@ -9,7 +9,8 @@ body {
 }
 
 .main-content {
-    width: 80%;
+    width: 90%;
+    text-align:justify;
     margin: 0 auto;
 }
 
@@ -32,11 +33,36 @@ body {
 }
 
 a {
-    color: #007bff;
+    color: #006fe5;
     text-decoration: none;
 }
 
 a:hover {
-    color: #0056b3;
-    text-decoration: underline;
+    color: #00e5ff;
+    /* text-decoration: underline; */
 }
+
+@media (max-width: 500px) {
+    body {
+        background-color: #e76183;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+    body {
+        background-color: #61a0e7;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1500px) {
+    body {
+        background-color: #bf00ff;
+    }
+}
+
+@media (min-width: 1501px) and (max-width: 2000px) {
+    body {
+        background-color: #c3bf00;
+    }
+}
+
