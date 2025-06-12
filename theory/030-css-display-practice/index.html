@@ -10,6 +10,9 @@
             margin: 10px;
             padding: 10px;
         }
+        .flexs {
+            display: flex;
+        }
 
         #rectangle1 {
             background-color: red;
@@ -22,7 +25,7 @@
             background-color: blue;
             width: 100px;
             height: 50px;
-            display: inline;
+            display: block;
         }
 
         #rectangle3 {
@@ -36,15 +39,17 @@
 
 <body>
     <h1>Практика изменения display</h1>
-    <div class="rectangle" id="rectangle1">
-        1
-    </div>
-    <div class="rectangle" id="rectangle2">
-        2
-    </div>
+    <div class="flexs">
+        <div class="rectangle" id="rectangle1">
+            1
+        </div>
+        <div class="rectangle" id="rectangle2">
+            2
+        </div>
 
-    <div class="rectangle" id="rectangle3">
-        3
+        <div class="rectangle" id="rectangle3">
+            3
+        </div>
     </div>
 </body>
 
