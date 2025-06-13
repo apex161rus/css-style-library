@@ -4,25 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="./test.css">
     <title>Flex-список меню</title>
 </head>
 
 <body>
+    <nav>
     <ul class="menu">
-        <li>Главная</li>
-        <li>О&nbsp;нас</li>
-        <li>Услуги</li>
-        <li>Портфолио</li>
-        <li>Контакты</li>
+      <li><a href="#">Главная</a></li>
+      <li>
+        <a href="#">Услуги</a>
+        <ul class="submenu">
+          <li><a href="#">Дизайн</a></li>
+          <li><a href="#">Разработка</a></li>
+          <li><a href="#">Маркетинг</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Портфолио</a></li>
+      <li><a href="#">Контакты</a>
+            <ul class="submenu">
+          <li><a href="#">89999999999</a></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Genrih Htaer</a></li>
+        </li>
     </ul>
+  </nav>
 </body>
 
 </html>
